@@ -23,10 +23,15 @@ article {
     padding: 5px;
 }
 .szamok {
-   
+    display: flexbox;
+    align-content: stretch;
+    
 }
 .szamok button {
-    
+    width: 35px;
+    height: 35px;
+    margin: 1px;
+    text-align: center;
 }
 .muvjelek {
     grid-area: muv;
